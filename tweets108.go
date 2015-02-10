@@ -1,5 +1,4 @@
 package main
-          }ckage main
 import (
         "os"
         "github.com/codegangsta/cli"
@@ -30,7 +29,6 @@ func FindDuplicates(strings*[]string)[]string {
     }
     return duplicate
 }
-
 
 func main() {
     app := cli.NewApp()
